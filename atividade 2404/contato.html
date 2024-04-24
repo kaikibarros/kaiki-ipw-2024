@@ -6,12 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Login Page</h1>
-    <p>Nome: <input type="text" name="nome" ></p>
-    <p>Email: <input type="email" name="emailPrincipal" 
-        value="teste@gmail.com"></p>
-    <p>Assunto: <input type="text" name="assunto" ></p>
-    <p>Mensagem <input type="text" name="mensagem"></p>
-
+    <h1>Contato</h1>
+    <form>
+        <fieldset>
+    <label><p>Nome: <input type="text" name="nome" ></p></label>
+    <label> <p>Email: <input type="email" name="emailPrincipal" 
+        value=""></p></label>
+        <label>  <p>Assunto: <input type="text" name="assunto" ></p></label>
+        <label for="mensagem"> Mensagem: </label> <br>
+        <textarea name="mensagem" id="" cols="30" rows="20"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    
+       </form>
+    </fieldset>
 </body>
 </html>
