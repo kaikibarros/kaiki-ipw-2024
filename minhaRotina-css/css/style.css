@@ -1,7 +1,86 @@
 body {
-    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+   
+}
+.container {
+   width: 350px;
+   background-color:rgba(92, 41, 0, 0.199);
+   border-radius: 10%;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container .titulo {
+    background-color:rgba(97, 52, 0, 0.075);
+    border-radius: 24px;
+}
+.froid {
+    background-color: rgba(210, 105, 30, 0.342);
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px#c25d0565;
 }
 
-.img-kako{
+.fundo-gif{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+    object-fit: cover; /* Faz a imagem cobrir todo o fundo */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(222, 184, 135, 0.075);
+}
+.fundo-gif::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0.555) 50%, rgba(0, 0, 0, 0.555) 100%)
+}
+
+
+.conteudo .img-kako{
+    background-color: coral;
+    position: absolute;
+    top: 5px;
+    right: 100px;
+    width: 20%;
+    aspect-ratio: 4 / 3; 
+    opacity: 95%;
+    border-radius: 30px;
+    box-shadow: 5px 5px#c25d0573;
+}
+.video {
+    position: absolute;
+    background-color: #c25d0552;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px#c25d0565;
+    top: 200px;
+    right: 40px;
+    width: 300px;
+    height:200px;
     
+}
+.audio {
+    position: absolute;
+    background-color: #c25d0552;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px#c25d0565;
+    top: 430px;
+    right: 40px;
 }
