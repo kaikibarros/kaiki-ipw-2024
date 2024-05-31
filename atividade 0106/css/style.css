@@ -24,3 +24,29 @@ body{
     justify-content: center; /* Alinha horizontalmente */
     align-items: center;
 }
+.buttom {
+    position: fixed;
+    margin: 0;
+    top: 10%;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.fundo-red {
+    
+    margin: 0;
+    display:flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;
+    background-color: red;
+    width: 700px;
+    padding: 0px;
+}
+
+.fundo-green {
+    background-color: green;
+    width: 700px;
+    padding: 25px;
+
+}
