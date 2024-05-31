@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.fundo {
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
+}
+
+
+.titulo1 {
+   
+    background-color: red;
+    border: 2px solid green;
+    position: fixed;
+    margin:0;
+    display:flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;
+}
