@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    
 }
 .fundo {
     position: fixed;
@@ -11,15 +12,16 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;;
+    
 }
 
 
 .titulo1 {
    
     background-color: red;
-    border: 2px solid green;
+    border: 2px solid rgb(5, 248, 5);
     position: fixed;
-    margin:0;
+    margin:0 auto;
     display:flex;
     justify-content: center; /* Alinha horizontalmente */
     align-items: center;
@@ -32,21 +34,35 @@ body{
     height: 100vh;
     
 }
+.fundos {
+    height: 100vh; /* Ajusta a altura do contêiner ao tamanho da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
 
-.fundo-red {
-    
-    margin: 0;
-    display:flex;
-    justify-content: center; /* Alinha horizontalmente */
-    align-items: center;
+.fundos .fundo-red {
     background-color: red;
     width: 700px;
     padding: 0px;
+    text-align:center;
 }
 
-.fundo-green {
+.fundos .fundo-green {
     background-color: green;
     width: 700px;
     padding: 25px;
-
+    text-align:center;
+   
+}
+.paragrafo-pag3 {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.link-podcast {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold ;
 }
